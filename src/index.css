@@ -16,3 +16,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.flex-container {
+  position: absolute; /* Stick to the viewport */
+  top: 0; /* Align top edge to the top of the viewport */
+  right: 0; /* Align right edge to the right of the viewport */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px; /* Or as much space as you want from the corner */
+  /* Add additional styling as needed */
+}
+
+#signIn {
+  margin-right: 10px;
+}
+
+#signUp {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.my-big-text {
+  color: #936b47; /* Custom text color */
+  font-size: 4rem; /* Adjust the font size as needed */
+  font-weight: bold; /* If you want the text to be bold */
+  word-wrap: break-word; /* Ensures the text wraps to avoid overflow */
+  padding-left: 10%; /* Aligns text 10% from the left side of the viewport */
+}
+
+@media (min-width: 768px) {
+  .my-big-text {
+    font-size: 4rem; /* Larger font size for larger screens */
+    margin-top: 0%;
+  }
+}
+
+* Styles for the job position and location inputs */ .form-control {
+  border-radius: 0; /* Removes the default border-radius */
+  border: 1px solid #000; /* Assuming you want a solid border; change as needed */
+}
+
+/* App.css */
+
+/* ... other styles ... */
+
+/* Custom style for the primary button (search button in this case) */
+.btn-primary {
+  background-color: #936b47; /* Background color for the button */
+  border-color: #936b47; /* Border color for the button */
+  font-size: 1rem; /* Maintains the font size */
+}
+
+/* If you want to change the text color of the button as well */
+.btn-primary {
+  color: #ffffff; /* This would set the text color to white */
+}
+
+/* Styles for the button when it's hovered, focused, or active */
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #7a5c3a; /* Slightly darker shade for interaction */
+  border-color: #7a5c3a; /* Ensuring the border color matches */
+}
+
+/* ... responsive adjustments or other styles ... */
