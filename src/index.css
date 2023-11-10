@@ -37,6 +37,11 @@ code {
   margin-right: 20px;
 }
 
+#signOut {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .my-big-text {
   color: #936b47; /* Custom text color */
   font-size: 4rem; /* Adjust the font size as needed */
